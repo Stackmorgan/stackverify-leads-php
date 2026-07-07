@@ -30,13 +30,13 @@ StackVerify Forms gives PHP developers:
 ## Installation
 
 Install using Composer:
-
+```
 composer require stackverify/forms
-
+```
 Load Composer:
-
+```
 require "vendor/autoload.php";
-
+```
 ---
 
 ## Quick Start
