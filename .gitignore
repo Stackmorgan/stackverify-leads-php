@@ -1,0 +1,34 @@
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.phpunit.cache/
+
+# Test coverage
+coverage/
+.clover
+
+# Build files
+*.zip
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/

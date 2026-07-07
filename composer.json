@@ -1,0 +1,57 @@
+{
+    "name": "stackverify/forms",
+    "description": "Official StackVerify Forms PHP SDK for collecting and managing leads through the StackVerify Forms API.",
+    "type": "library",
+    "license": "MIT",
+
+    "homepage": "https://stackverify.site/forms",
+
+    "authors": [
+        {
+            "name": "Morgan Miller",
+            "homepage": "https://stackverify.site"
+        }
+    ],
+
+    "keywords": [
+        "stackverify",
+        "php-sdk",
+        "forms",
+        "form-api",
+        "lead-generation",
+        "contact-form",
+        "kyphp",
+        "api-client"
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "StackVerify\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "StackVerify\\Tests\\": "tests/"
+        }
+    },
+
+    "bin": [
+        "bin/stackverify"
+    ],
+
+    "require": {
+        "php": ">=8.0",
+        "frost-bit-star/kyphp": "^1.0"
+    },
+
+    "require-dev": {},
+
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+
+    "support": {
+        "issues": "https://github.com/stackmorgan/stackverify-forms/issues",
+        "source": "https://github.com/stackmorgan/stackverify-forms"
+    }
+}

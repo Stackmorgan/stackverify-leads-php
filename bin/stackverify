@@ -1,0 +1,60 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+
+use StackVerify\StackVerify;
+
+
+echo "\n";
+echo "============================\n";
+echo " StackVerify Forms Tester\n";
+echo "============================\n\n";
+
+
+$formId = readline("Form ID: ");
+
+
+if (!$formId) {
+
+    echo "Form ID cannot be empty\n";
+    exit(1);
+
+}
+
+
+$data = [
+
+    "name" => readline("Name: "),
+
+    "email" => readline("Email: "),
+
+    "company" => readline("Company: "),
+
+    "message" => readline("Message: ")
+
+];
+
+
+echo "\nSending test submission...\n\n";
+
+
+try {
+
+    $stack = new StackVerify();
+
+
+    $response = $stack
+        ->forms($formId)
+        ->submit($data);
+
+
+    print_r($response);
+
+
+} catch(Throwable $e){
+
+    echo "\nError:\n";
+    echo $e->getMessage();
+}
