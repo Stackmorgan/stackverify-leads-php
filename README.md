@@ -1,7 +1,9 @@
-##StackVerify Forms PHP SDK
+<img src="https://i.ibb.co/Fqgxjt1N/Gemini-Generated-Image-m7irhdm7irhdm7ir.png" alt="StackVerify Logo" width="100%" style="max-width: 900px;">
 
-""PHP Version" (https://img.shields.io/badge/PHP-%3E%3D8.0-blue)"
-""License" (https://img.shields.io/badge/license-MIT-green)"
+# StackVerify Forms PHP SDK
+
+![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Official PHP SDK for StackVerify Forms powered by KyPHP.
 
